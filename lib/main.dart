@@ -1,16 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/MySplash.dart';
 
 void main() {
-  runApp(
-    MaterialApp(
-      title: "First App",
-      home: Scaffold(
-        body: Container(
-          child: Center(
-            child: Text("first app"),
-          ),
-        ),
-      ),
-    ),
-  );
+  runApp(MaterialApp(
+      debugShowCheckedModeBanner: false, title: "storygram", home: MySplash()));
 }
