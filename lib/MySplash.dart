@@ -14,7 +14,7 @@ class _MySplashState extends State<MySplash> {
   @override
   Widget build(BuildContext context) {
     return new SplashScreen(
-      seconds: 10,
+      seconds: 3,
       navigateAfterSeconds: Home(),
       title: new Text("STORYGRAM",
           style: new TextStyle(
