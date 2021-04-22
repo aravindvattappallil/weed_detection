@@ -25,7 +25,7 @@ class _HomeState extends State<Home> {
 
   loadModel() async {
     await Tflite.loadModel(
-        model: 'assets/weed_model.tflite', labels: 'assets/weed-label.txt');
+        model: 'assets/weed_model1.tflite', labels: 'assets/weed-label.txt');
   }
 
   classifyImage(File image) async {

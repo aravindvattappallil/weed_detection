@@ -16,12 +16,12 @@ class _MySplashState extends State<MySplash> {
     return new SplashScreen(
       seconds: 3,
       navigateAfterSeconds: Home(),
-      title: new Text("STORYGRAM",
+      title: new Text("WD",
           style: new TextStyle(
               color: Color(0xFF42A5F5),
               fontWeight: FontWeight.bold,
               fontSize: 30)),
-      image: Image.asset("assets/rog.jpg"),
+      image: Image.asset("assets/wdlogo.png"),
       backgroundColor: Color(0xFF000000),
       styleTextUnderTheLoader: new TextStyle(),
       photoSize: 200,
